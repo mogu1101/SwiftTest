@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		AB3B4AE21D461D28000ADF59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B4AE11D461D28000ADF59 /* AppDelegate.swift */; };
-		AB3B4AE41D461D28000ADF59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B4AE31D461D28000ADF59 /* ViewController.swift */; };
 		AB3B4AE71D461D28000ADF59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3B4AE51D461D28000ADF59 /* Main.storyboard */; };
 		AB3B4AE91D461D28000ADF59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3B4AE81D461D28000ADF59 /* Assets.xcassets */; };
 		AB3B4AEC1D461D28000ADF59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3B4AEA1D461D28000ADF59 /* LaunchScreen.storyboard */; };
 		AB3B4AF71D461D28000ADF59 /* GestureUnlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B4AF61D461D28000ADF59 /* GestureUnlockTests.swift */; };
 		AB3B4B021D461D28000ADF59 /* GestureUnlockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B4B011D461D28000ADF59 /* GestureUnlockUITests.swift */; };
+		AB3B4B101D461D51000ADF59 /* GestureUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B4B0F1D461D51000ADF59 /* GestureUnlockView.swift */; };
+		AB3B4B121D4621E1000ADF59 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B4B111D4621E1000ADF59 /* UIImage+Extension.swift */; };
+		AB3B4B141D48A43A000ADF59 /* InkPresenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B4B131D48A43A000ADF59 /* InkPresenterView.swift */; };
+		AB3B4B161D48BC03000ADF59 /* InkPresenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B4B151D48BC03000ADF59 /* InkPresenterViewController.swift */; };
+		AB3B4B181D48E0F3000ADF59 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B4B171D48E0F3000ADF59 /* UIColor+Extension.swift */; };
+		AB3B4B1A1D48F211000ADF59 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B4B191D48F211000ADF59 /* RootViewController.swift */; };
+		AB3B4B1C1D49AB7A000ADF59 /* GestureUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B4B1B1D49AB7A000ADF59 /* GestureUnlockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		AB3B4ADE1D461D28000ADF59 /* GestureUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3B4AE11D461D28000ADF59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB3B4AE31D461D28000ADF59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB3B4AE61D461D28000ADF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB3B4AE81D461D28000ADF59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB3B4AEB1D461D28000ADF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		AB3B4AFD1D461D28000ADF59 /* GestureUnlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureUnlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3B4B011D461D28000ADF59 /* GestureUnlockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureUnlockUITests.swift; sourceTree = "<group>"; };
 		AB3B4B031D461D28000ADF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3B4B0F1D461D51000ADF59 /* GestureUnlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureUnlockView.swift; sourceTree = "<group>"; };
+		AB3B4B111D4621E1000ADF59 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		AB3B4B131D48A43A000ADF59 /* InkPresenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InkPresenterView.swift; sourceTree = "<group>"; };
+		AB3B4B151D48BC03000ADF59 /* InkPresenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InkPresenterViewController.swift; sourceTree = "<group>"; };
+		AB3B4B171D48E0F3000ADF59 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		AB3B4B191D48F211000ADF59 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		AB3B4B1B1D49AB7A000ADF59 /* GestureUnlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureUnlockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				AB3B4AE11D461D28000ADF59 /* AppDelegate.swift */,
-				AB3B4AE31D461D28000ADF59 /* ViewController.swift */,
 				AB3B4AE51D461D28000ADF59 /* Main.storyboard */,
 				AB3B4AE81D461D28000ADF59 /* Assets.xcassets */,
 				AB3B4AEA1D461D28000ADF59 /* LaunchScreen.storyboard */,
 				AB3B4AED1D461D28000ADF59 /* Info.plist */,
+				AB3B4B0F1D461D51000ADF59 /* GestureUnlockView.swift */,
+				AB3B4B131D48A43A000ADF59 /* InkPresenterView.swift */,
+				AB3B4B151D48BC03000ADF59 /* InkPresenterViewController.swift */,
+				AB3B4B171D48E0F3000ADF59 /* UIColor+Extension.swift */,
+				AB3B4B111D4621E1000ADF59 /* UIImage+Extension.swift */,
+				AB3B4B191D48F211000ADF59 /* RootViewController.swift */,
+				AB3B4B1B1D49AB7A000ADF59 /* GestureUnlockViewController.swift */,
 			);
 			path = GestureUnlock;
 			sourceTree = "<group>";
@@ -193,6 +211,7 @@
 				TargetAttributes = {
 					AB3B4ADD1D461D28000ADF59 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AW6T6D3PU3;
 					};
 					AB3B4AF11D461D28000ADF59 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -256,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3B4AE41D461D28000ADF59 /* ViewController.swift in Sources */,
+				AB3B4B181D48E0F3000ADF59 /* UIColor+Extension.swift in Sources */,
+				AB3B4B141D48A43A000ADF59 /* InkPresenterView.swift in Sources */,
+				AB3B4B1C1D49AB7A000ADF59 /* GestureUnlockViewController.swift in Sources */,
+				AB3B4B101D461D51000ADF59 /* GestureUnlockView.swift in Sources */,
 				AB3B4AE21D461D28000ADF59 /* AppDelegate.swift in Sources */,
+				AB3B4B161D48BC03000ADF59 /* InkPresenterViewController.swift in Sources */,
+				AB3B4B1A1D48F211000ADF59 /* RootViewController.swift in Sources */,
+				AB3B4B121D4621E1000ADF59 /* UIImage+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +426,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GestureUnlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.GestureUnlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +440,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GestureUnlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.GestureUnlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +515,7 @@
 				AB3B4B081D461D28000ADF59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB3B4B091D461D28000ADF59 /* Build configuration list for PBXNativeTarget "GestureUnlockTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +524,7 @@
 				AB3B4B0B1D461D28000ADF59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB3B4B0C1D461D28000ADF59 /* Build configuration list for PBXNativeTarget "GestureUnlockUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +533,7 @@
 				AB3B4B0E1D461D28000ADF59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
